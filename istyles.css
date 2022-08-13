@@ -1,0 +1,105 @@
+html, body {
+  min-width: 400px;
+}
+
+body, input, button {
+  font-size: 14px;
+  font-family: arial, sans-serif;
+  color: #bdc1c6;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #202124;
+}
+
+.div111 > a {
+  padding-left: 15px;
+  text-decoration: none;
+  color: white;
+}
+
+.div111 > a:hover {
+  text-decoration: underline;
+}
+
+.bodydiv {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.div1 {
+  height: 60px;
+}
+
+.div11 {
+  flex-grow: 1;
+}
+
+.div111 {
+  padding-right: 40px;
+  height: 48px;
+  font-size: 13px;
+  float: right;
+}
+
+.div2 {
+  flex-direction: column;
+  max-height: 92px;
+}
+
+.div21 {
+  position: relative;
+  max-height: 92px;
+}
+
+.div211 {
+  position: absolute;
+  left: 215px;
+  bottom: 0px;
+  color: #4487f6;
+  font-size: 16px;
+}
+
+.div3 {
+  padding: 20px;
+  max-height: 160px;
+  box-sizing: border-box;
+}
+
+.div31 {
+  margin: 0 auto;
+  padding-top: 6px;
+  width: auto;
+  max-width: 584px;
+  position: relative;
+}
+
+.div32 {
+  display: flex;
+  border: 1px solid #5f6368;
+  border-radius: 24px;
+  height: 44px;
+}
+
+.div33 {
+  display: flex;
+  flex: 1;
+  padding: 5px 8px 0 14px;
+}
+
+.indiv {
+  display: flex;
+  flex: 1;
+  color: #e8eaed;
+  font-size: 16px;
+  background-color: transparent;
+  border: none;
+}/*# sourceMappingURL=istyles.css.map */
